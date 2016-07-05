@@ -15,6 +15,16 @@
 		0F8E1B091D23F654009F0A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8E1B071D23F654009F0A64 /* LaunchScreen.storyboard */; };
 		0F8E1B141D23F654009F0A64 /* FieldAgentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E1B131D23F654009F0A64 /* FieldAgentAppTests.swift */; };
 		0F8E1B1F1D23F654009F0A64 /* FieldAgentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E1B1E1D23F654009F0A64 /* FieldAgentAppUITests.swift */; };
+		0F8E1B2D1D24CBC4009F0A64 /* RejectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E1B2C1D24CBC4009F0A64 /* RejectViewController.swift */; };
+		0F8E1B2F1D24CFB8009F0A64 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8E1B2E1D24CFB8009F0A64 /* MapKit.framework */; };
+		0F8E1B381D24E426009F0A64 /* TEQuickPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E1B351D24E426009F0A64 /* TEQuickPageViewController.m */; };
+		0F8E1B391D24E426009F0A64 /* TEQuickPageViewSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E1B371D24E426009F0A64 /* TEQuickPageViewSegue.m */; };
+		0F8E1B3C1D24EE50009F0A64 /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E1B3B1D24EE50009F0A64 /* CustomObject.m */; };
+		0FE0DDB51D250E480041F6BB /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE0DDAE1D250E3C0041F6BB /* Charts.framework */; };
+		0FE0DDB61D250E480041F6BB /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE0DDAE1D250E3C0041F6BB /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FE0DDBB1D2532C60041F6BB /* FlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DDBA1D2532C60041F6BB /* FlowViewController.swift */; };
+		0FE0DDBF1D253C9E0041F6BB /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DDBE1D253C9E0041F6BB /* ChartsViewController.swift */; };
+		0FE0DDC21D2541680041F6BB /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DDC11D2541680041F6BB /* LocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +42,56 @@
 			remoteGlobalIDString = 0F8E1AF81D23F653009F0A64;
 			remoteInfo = FieldAgentApp;
 		};
+		0FE0DDAD1D250E3C0041F6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FE0DDA61D250E3C0041F6BB /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		0FE0DDAF1D250E3C0041F6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FE0DDA61D250E3C0041F6BB /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		0FE0DDB11D250E3C0041F6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FE0DDA61D250E3C0041F6BB /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65B3F5BF1C7370BE000983D0;
+			remoteInfo = "Charts-OSX";
+		};
+		0FE0DDB31D250E3C0041F6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FE0DDA61D250E3C0041F6BB /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		0FE0DDB71D250E480041F6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FE0DDA61D250E3C0041F6BB /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0FE0DDB91D250E480041F6BB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0FE0DDB61D250E480041F6BB /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0F8E1AF91D23F653009F0A64 /* FieldAgentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldAgentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +108,19 @@
 		0F8E1B1A1D23F654009F0A64 /* FieldAgentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldAgentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8E1B1E1D23F654009F0A64 /* FieldAgentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAgentAppUITests.swift; sourceTree = "<group>"; };
 		0F8E1B201D23F654009F0A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8E1B2C1D24CBC4009F0A64 /* RejectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RejectViewController.swift; sourceTree = "<group>"; };
+		0F8E1B2E1D24CFB8009F0A64 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0F8E1B331D24E424009F0A64 /* FieldAgentApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FieldAgentApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		0F8E1B341D24E426009F0A64 /* TEQuickPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEQuickPageViewController.h; sourceTree = "<group>"; };
+		0F8E1B351D24E426009F0A64 /* TEQuickPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEQuickPageViewController.m; sourceTree = "<group>"; };
+		0F8E1B361D24E426009F0A64 /* TEQuickPageViewSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEQuickPageViewSegue.h; sourceTree = "<group>"; };
+		0F8E1B371D24E426009F0A64 /* TEQuickPageViewSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEQuickPageViewSegue.m; sourceTree = "<group>"; };
+		0F8E1B3A1D24EE1A009F0A64 /* CustomObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomObject.h; sourceTree = "<group>"; };
+		0F8E1B3B1D24EE50009F0A64 /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
+		0FE0DDA61D250E3C0041F6BB /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../Downloads/Charts-master-2/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		0FE0DDBA1D2532C60041F6BB /* FlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowViewController.swift; sourceTree = "<group>"; };
+		0FE0DDBE1D253C9E0041F6BB /* ChartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		0FE0DDC11D2541680041F6BB /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F8E1B2F1D24CFB8009F0A64 /* MapKit.framework in Frameworks */,
+				0FE0DDB51D250E480041F6BB /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +153,8 @@
 		0F8E1AF01D23F653009F0A64 = {
 			isa = PBXGroup;
 			children = (
+				0FE0DDA61D250E3C0041F6BB /* Charts.xcodeproj */,
+				0F8E1B2E1D24CFB8009F0A64 /* MapKit.framework */,
 				0F8E1AFB1D23F653009F0A64 /* FieldAgentApp */,
 				0F8E1B121D23F654009F0A64 /* FieldAgentAppTests */,
 				0F8E1B1D1D23F654009F0A64 /* FieldAgentAppUITests */,
@@ -99,13 +175,20 @@
 		0F8E1AFB1D23F653009F0A64 /* FieldAgentApp */ = {
 			isa = PBXGroup;
 			children = (
+				0F8E1B321D24E405009F0A64 /* Classes */,
 				0F8E1AFC1D23F653009F0A64 /* AppDelegate.swift */,
 				0F8E1AFE1D23F653009F0A64 /* FirstViewController.swift */,
 				0F8E1B001D23F654009F0A64 /* SecondViewController.swift */,
+				0FE0DDC11D2541680041F6BB /* LocationViewController.swift */,
 				0F8E1B021D23F654009F0A64 /* Main.storyboard */,
+				0FE0DDBE1D253C9E0041F6BB /* ChartsViewController.swift */,
+				0F8E1B2C1D24CBC4009F0A64 /* RejectViewController.swift */,
+				0FE0DDBA1D2532C60041F6BB /* FlowViewController.swift */,
 				0F8E1B051D23F654009F0A64 /* Assets.xcassets */,
 				0F8E1B071D23F654009F0A64 /* LaunchScreen.storyboard */,
 				0F8E1B0A1D23F654009F0A64 /* Info.plist */,
+				0F8E1B3A1D24EE1A009F0A64 /* CustomObject.h */,
+				0F8E1B3B1D24EE50009F0A64 /* CustomObject.m */,
 			);
 			path = FieldAgentApp;
 			sourceTree = "<group>";
@@ -128,6 +211,29 @@
 			path = FieldAgentAppUITests;
 			sourceTree = "<group>";
 		};
+		0F8E1B321D24E405009F0A64 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F8E1B341D24E426009F0A64 /* TEQuickPageViewController.h */,
+				0F8E1B351D24E426009F0A64 /* TEQuickPageViewController.m */,
+				0F8E1B361D24E426009F0A64 /* TEQuickPageViewSegue.h */,
+				0F8E1B371D24E426009F0A64 /* TEQuickPageViewSegue.m */,
+				0F8E1B331D24E424009F0A64 /* FieldAgentApp-Bridging-Header.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0FE0DDA71D250E3C0041F6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FE0DDAE1D250E3C0041F6BB /* Charts.framework */,
+				0FE0DDB01D250E3C0041F6BB /* Charts.framework */,
+				0FE0DDB21D250E3C0041F6BB /* Charts.framework */,
+				0FE0DDB41D250E3C0041F6BB /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +244,12 @@
 				0F8E1AF51D23F653009F0A64 /* Sources */,
 				0F8E1AF61D23F653009F0A64 /* Frameworks */,
 				0F8E1AF71D23F653009F0A64 /* Resources */,
+				0FE0DDB91D250E480041F6BB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0FE0DDB81D250E480041F6BB /* PBXTargetDependency */,
 			);
 			name = FieldAgentApp;
 			productName = FieldAgentApp;
@@ -218,6 +326,12 @@
 			mainGroup = 0F8E1AF01D23F653009F0A64;
 			productRefGroup = 0F8E1AFA1D23F653009F0A64 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0FE0DDA71D250E3C0041F6BB /* Products */;
+					ProjectRef = 0FE0DDA61D250E3C0041F6BB /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0F8E1AF81D23F653009F0A64 /* FieldAgentApp */,
@@ -226,6 +340,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0FE0DDAE1D250E3C0041F6BB /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 0FE0DDAD1D250E3C0041F6BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0FE0DDB01D250E3C0041F6BB /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 0FE0DDAF1D250E3C0041F6BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0FE0DDB21D250E3C0041F6BB /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 0FE0DDB11D250E3C0041F6BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0FE0DDB41D250E3C0041F6BB /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 0FE0DDB31D250E3C0041F6BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0F8E1AF71D23F653009F0A64 /* Resources */ = {
@@ -259,9 +404,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F8E1B391D24E426009F0A64 /* TEQuickPageViewSegue.m in Sources */,
+				0F8E1B381D24E426009F0A64 /* TEQuickPageViewController.m in Sources */,
 				0F8E1B011D23F654009F0A64 /* SecondViewController.swift in Sources */,
+				0FE0DDBF1D253C9E0041F6BB /* ChartsViewController.swift in Sources */,
+				0F8E1B3C1D24EE50009F0A64 /* CustomObject.m in Sources */,
+				0FE0DDC21D2541680041F6BB /* LocationViewController.swift in Sources */,
+				0F8E1B2D1D24CBC4009F0A64 /* RejectViewController.swift in Sources */,
 				0F8E1AFD1D23F653009F0A64 /* AppDelegate.swift in Sources */,
 				0F8E1AFF1D23F653009F0A64 /* FirstViewController.swift in Sources */,
+				0FE0DDBB1D2532C60041F6BB /* FlowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +445,11 @@
 			isa = PBXTargetDependency;
 			target = 0F8E1AF81D23F653009F0A64 /* FieldAgentApp */;
 			targetProxy = 0F8E1B1B1D23F654009F0A64 /* PBXContainerItemProxy */;
+		};
+		0FE0DDB81D250E480041F6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 0FE0DDB71D250E480041F6BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -405,10 +562,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = FieldAgentApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.FieldAgentApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FieldAgentApp/FieldAgentApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -416,10 +577,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = FieldAgentApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.FieldAgentApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FieldAgentApp/FieldAgentApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +652,7 @@
 				0F8E1B251D23F654009F0A64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F8E1B261D23F654009F0A64 /* Build configuration list for PBXNativeTarget "FieldAgentAppTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +661,7 @@
 				0F8E1B281D23F654009F0A64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F8E1B291D23F654009F0A64 /* Build configuration list for PBXNativeTarget "FieldAgentAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +670,7 @@
 				0F8E1B2B1D23F654009F0A64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
